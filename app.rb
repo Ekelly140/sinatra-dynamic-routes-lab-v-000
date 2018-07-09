@@ -16,7 +16,7 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     i = 0
     binding.pry
-    until i > @num
+    until i = @num
       @phrase
       i += 1
     end
